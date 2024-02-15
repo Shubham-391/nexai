@@ -13,3 +13,7 @@
 .f-neuro{
   font-family: neuro;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}

@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         headerbg: "url(/src/assets/images/headerbg.webp)",
+        globebg: "url(/src/assets/images/globe.webp)",
       },
     },
     fontFamily: {
