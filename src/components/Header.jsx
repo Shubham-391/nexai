@@ -11,7 +11,7 @@ function Header() {
    }
   return (
     <>
-      <div className="min-h-screen min-[1200px]:h-[810px] w-full bg-headerbg bg-center bg-no-repeat bg-cover min-[1441px]:bg-contain relative overflow-hidden flex flex-col">
+      <div className="min-h-screen min-[1200px]:h-[810px] w-full bg-headerbg bg-center bg-no-repeat bg-cover min-[1441px]:bg-contain relative flex flex-col">
         {/* small screen navpage */}
         <ul
           className={`flex gap-5 w-full h-full fixed justify-center items-center flex-col bg-[#040404] left-[-100%] sm:hidden z-[7] duration-300 ${

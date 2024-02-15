@@ -13,23 +13,3 @@
 .f-neuro{
   font-family: neuro;
 }
-.bubble-btn span {
-  left: calc((var(--n) - 1) * 25%);
-  transition-delay: calc((var(--n) - 1) * 0.1s);
-}
-
-.bubble-btn span:nth-child(1) {
-  --n: 1;
-}
-
-.bubble-btn span:nth-child(2) {
-  --n: 2;
-}
-
-.bubble-btn span:nth-child(3) {
-  --n: 3;
-}
-
-.bubble-btn span:nth-child(4) {
-  --n: 4;
-}
