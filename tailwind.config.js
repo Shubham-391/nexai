@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         headerbg: "url(/src/assets/images/headerbg.webp)",
         globebg: "url(/src/assets/images/globe.webp)",
+        hexagonbg: "url(/src/assets/images/hexagon.webp)",
       },
     },
     fontFamily: {
