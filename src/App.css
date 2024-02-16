@@ -24,3 +24,9 @@
 .section3slider .slick-dots li button:before {
   color: white !important;
 }
+.slider2 .slick-list {
+  padding: 20px 0;
+}
+.slider2 .slick-slide{
+  margin: 0 12px;
+}
