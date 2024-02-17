@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Section4 from './components/Section4';
 import Section5 from './components/Section5';
 import Section6 from './components/Section6';
+import Section7 from './components/Section7';
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
         <Section3 />
         <Section4 />
         <Section5 />
-        <Section6/>
+        <Section6 />
+        <Section7/>
       </div>
     </>
   );
