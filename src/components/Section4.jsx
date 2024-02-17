@@ -51,17 +51,7 @@ function Section4() {
     autoplaySpeed: 0,
     cssEase: "Linear",
   };
-  const settings2 = {
-    infinite: true,
-    speed: 5000,
-    slidesToScroll: 1,
-    arrows: false,
-    autoplay: true,
-    variableWidth: true,
-    autoplaySpeed: 0,
-    cssEase: "Linear",
-    rtl: true,
-  };
+ 
   return (
     <>
       <div className="pt-12 sm:pt-[200px] relative">
@@ -96,7 +86,7 @@ function Section4() {
             </div>
           ))}
         </Slider>
-        <Slider className="slider2 h-[200px] sm:h-[260px]" {...settings2}>
+        <Slider rtl className="slider2 h-[200px] sm:h-[260px]" {...settings1}>
           {boxdata.map((data, index) => (
             <div
               key={index}
