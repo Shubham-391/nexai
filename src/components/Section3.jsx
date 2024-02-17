@@ -84,7 +84,7 @@ function Section3() {
         </p>
         <Slider
           {...settings}
-          className="min-[1200px]:max-w-[1302px] w-full min-[1200px]:ml-auto section3slider relative z-[1]"
+          className="min-[1200px]:max-w-[1290px] 2xl:max-w-[1530px] w-full min-[1200px]:ml-auto section3slider relative z-[1]"
         >
           {hexdata.map((data, index) => (
             <div
