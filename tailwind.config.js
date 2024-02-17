@@ -8,6 +8,7 @@ export default {
         globebg: "url(/src/assets/images/globe.webp)",
         hexagonbg: "url(/src/assets/images/hexagon.webp)",
         section5bg: "url(/src/assets/images/section5bg.webp)",
+        footerbg: "url(/src/assets/images/footerbg.webp)",
       },
     },
     fontFamily: {
