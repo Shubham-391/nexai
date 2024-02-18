@@ -68,17 +68,35 @@ function Section3() {
   };
   return (
     <>
-      <div className="pt-12 md:pt-24 min-[1200px]:pt-[160px] overflow-hidden px-3 sm:px-0 pb-5 md:pb-0 relative">
-        <h2 className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-[#02CDCF] text-center mb-4 mx-auto px-3 relative z-[1]">
+      <div
+        id="about"
+        className="pt-12 md:pt-24 min-[1200px]:pt-[160px] overflow-hidden px-3 sm:px-0 pb-5 md:pb-0 relative"
+      >
+        <h2
+          className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-[#02CDCF] text-center mb-4 mx-auto px-3 relative z-[1]"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           Blockchain & AI technology
         </h2>
-        <p className="max-w-[1015px] w-full font-poppins font-normal text-base leading-[25.6px] text-center text-[rgba(255,255,255,0.7)] mx-auto px-3 mb-12 sm:mb-24 relative z-[1]">
+        <p
+          className="max-w-[1015px] w-full font-poppins font-normal text-base leading-[25.6px] text-center text-[rgba(255,255,255,0.7)] mx-auto px-3 mb-12 sm:mb-24 relative z-[1]"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           Nexai is an advanced home assistant that will revolutionize the way we
           interact with our smart devices at home. Powered by sophisticated
           artificial intelligence, it leverages blockchain technology to offer a
           secure and efficient user experience.
         </p>
-        <p className="max-w-[684px] w-full f-recharge font-bold text-xl leading-[32px] text-center text-white mx-auto px-3 mb-[30px] sm:mb-[60px] relative z-[1]">
+        <p
+          className="max-w-[684px] w-full f-recharge font-bold text-xl leading-[32px] text-center text-white mx-auto px-3 mb-[30px] sm:mb-[60px] relative z-[1]"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           By building the software on blockchain, Nexai provides the following
           advantages
         </p>
@@ -88,6 +106,9 @@ function Section3() {
         >
           {hexdata.map((data, index) => (
             <div
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
               key={index}
               className={`sm:h-[478px] !flex ${
                 index == 0 || index == 2 ? "items-start" : "sm:items-end"

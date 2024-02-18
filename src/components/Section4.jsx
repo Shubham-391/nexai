@@ -55,10 +55,14 @@ function Section4() {
   return (
     <>
       <div className="pt-12 sm:pt-[200px] relative">
-        <h2 className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-center text-[#02CDCF] mb-4 px-3">
+        <h2 className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-center text-[#02CDCF] mb-4 px-3" data-aos="zoom-in"
+            data-aos-once="true"
+            data-aos-duration="1000">
           NexAi does all this. And more.
         </h2>
-        <p className="font-poppins font-normal text-base leading-[25.6px] text-center text-[rgba(255,255,255,0.7)] max-w-[922px] w-full mx-auto px-3 mb-7 sm:mb-[70px]">
+        <p className="font-poppins font-normal text-base leading-[25.6px] text-center text-[rgba(255,255,255,0.7)] max-w-[922px] w-full mx-auto px-3 mb-7 sm:mb-[70px]" data-aos="zoom-in"
+            data-aos-once="true"
+            data-aos-duration="1000">
           Nexai is an advanced home assistant that will revolutionize the way we
           interact with our smart devices at home. Powered by sophisticated
           artificial intelligence, it leverages blockchain technology to offer a

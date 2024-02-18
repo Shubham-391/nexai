@@ -5,11 +5,13 @@ import logo from "../assets/images/logo.webp";
 function Footer() {
   return (
     <>
-      <div className="pt-12 sm:pt-[89px] relative">
+      <div id="footer" className="pt-12 sm:pt-[89px] relative">
         <div className="md:min-h-[492px] bg-footerbg bg-bottom bg-cover w-full">
-          <div className="max-w-[1164px] mx-auto px-3 md:min-h-[431px] gap-y-6 w-full md:justify-between flex flex-col md:flex-row">
+          <div className="max-w-[1164px] mx-auto px-3 md:min-h-[431px] gap-y-6 w-full md:justify-between flex flex-col md:flex-row" data-aos="zoom-in"
+            data-aos-once="true"
+            data-aos-duration="1000">
             <div className="max-w-[356px] md:h-[286px] flex flex-col justify-end md:pt-[31px]">
-              <a href="">
+              <a href="#home">
                 <img className="w-[50px] mb-5" src={logo} alt="logo" />
               </a>
               <p className="f-recharge font-bold text-base leading-[25.6px] text-[rgba(255,255,255,0.7)] md:mb-5">
@@ -49,7 +51,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#home"
                     >
                       Home
                     </a>
@@ -57,7 +59,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#section1"
                     >
                       Features
                     </a>
@@ -65,7 +67,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#section2"
                     >
                       Marketplace
                     </a>
@@ -73,7 +75,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#tokens"
                     >
                       Tokens
                     </a>
@@ -81,7 +83,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#next"
                     >
                       NexChat
                     </a>
@@ -89,7 +91,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#about"
                     >
                       About
                     </a>
@@ -102,7 +104,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#footer"
                     >
                       Contact
                     </a>
@@ -110,7 +112,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#footer"
                     >
                       Phone
                     </a>
@@ -118,7 +120,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#footer"
                     >
                       terms
                     </a>
@@ -126,7 +128,7 @@ function Footer() {
                   <li>
                     <a
                       className="f-recharge font-bold text-base leading-[19.2px] text-[rgba(255,255,255,0.7)] relative after:absolute after:bottom-0 after:left-[50%] after:h-[1px] after:bg-[rgba(255,255,255,0.7)] after:w-0 after:duration-300 hover:after:left-0 hover:after:w-full"
-                      href=""
+                      href="#footer"
                     >
                       Privacy
                     </a>

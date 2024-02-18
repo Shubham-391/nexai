@@ -6,7 +6,12 @@ function Section7() {
   return (
     <>
       <div className="w-full pt-12 sm:pt-24 min-[1200px]:pt-0 min-[1200px]:min-h-[391px] flex items-end relative">
-        <div className="max-w-[1164px] mx-auto px-3 w-full flex flex-col gap-y-6 md:flex-row justify-between items-center">
+        <div
+          className="max-w-[1164px] mx-auto px-3 w-full flex flex-col gap-y-6 md:flex-row justify-between items-center"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           <p className="max-w-[517px] w-full f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[52px] text-[#FCFCFC] text-center md:text-start">
             Ready to get started
             <br />

@@ -5,21 +5,30 @@ import Button from "./Button";
 function Section1() {
   return (
     <>
-      <div className="w-full relative mt-12 sm:mt-[80px] mb-12 sm:mb-[120px]">
+      <div
+        id="section1"
+        className="w-full relative mt-12 sm:mt-[80px] mb-12 sm:mb-[120px]"
+      >
         <div className="max-w-[1246px] w-full px-3 mx-auto min-h-[585px] flex flex-wrap gap-y-6">
           <div className="w-full min-[1200px]:w-1/2 relative flex justify-center min-[1200px]:justify-start">
-            <div className="max-w-[612px] sm:h-[507px]">
+            <div
+              className="max-w-[612px] sm:h-[507px]"
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               {" "}
-              <img
-                className="w-full object-cover"
-                src={hand}
-                alt="hand"
-              />
+              <img className="w-full object-cover" src={hand} alt="hand" />
             </div>
             <div className="absolute blur-[220px] sm:blur-[180px] w-[231px] h-[231px] rounded-[50%] bg-[#02CDCF] bottom-[9%] min-[1200px]:bottom-[20%] left-[33%] min-[1200px]:left-[16%]"></div>
           </div>
           <div className="w-full min-[1200px]:w-1/2 flex justify-center min-[1200px]:justify-start items-center relative">
-            <div className="max-w-[517px] w-full flex flex-col items-center min-[1200px]:items-start">
+            <div
+              className="max-w-[517px] w-full flex flex-col items-center min-[1200px]:items-start"
+              data-aos="fade-left"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               <h2 className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-[#02CDCF] mb-4 text-center min-[1200px]:text-start">
                 Ai-Powered Home Assistant
               </h2>

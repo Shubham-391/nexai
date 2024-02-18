@@ -31,13 +31,23 @@ function Section6() {
   ];
   return (
     <>
-      <div className="pt-12 sm:pt-[160px] relative">
-        <h2 className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-center text-[#02CDCF]">
+      <div id="tokens" className="pt-12 sm:pt-[160px] relative">
+        <h2
+          className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-center text-[#02CDCF]"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           NexAI Token & utility
         </h2>
         <div className="max-w-[1304px] w-full mx-auto px-3 flex flex-wrap">
           <div className="w-full min-[1200px]:w-[45%] flex justify-center min-[1200px]:justify-start">
-            <div className="max-w-[572px] sm:h-[529px] w-full">
+            <div
+              className="max-w-[572px] sm:h-[529px] w-full"
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               <img
                 className="object-cover w-full h-full"
                 src={section6hand}
@@ -46,7 +56,12 @@ function Section6() {
             </div>
           </div>
           <div className="w-full min-[1200px]:w-[55%] flex justify-center min-[1200px]:justify-start">
-            <div className="max-w-[620px] h-[449px] flex flex-col items-end w-full overflow-y-auto min-[1200px]:mt-[110px] min-[1200px]:ml-[17px] pl-10">
+            <div
+              className="max-w-[620px] h-[449px] flex flex-col items-end w-full overflow-y-auto min-[1200px]:mt-[110px] min-[1200px]:ml-[17px] pl-10"
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               {section6data.map((data, index) => (
                 <div
                   key={index}

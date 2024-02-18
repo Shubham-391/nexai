@@ -11,7 +11,10 @@ function Header() {
    }
   return (
     <>
-      <div className="min-h-screen min-[1200px]:h-[810px] w-full bg-headerbg bg-center bg-no-repeat bg-cover min-[1441px]:bg-contain relative flex flex-col">
+      <div
+        id="home"
+        className="min-h-screen min-[1200px]:h-[810px] w-full bg-headerbg bg-center bg-no-repeat bg-cover min-[1441px]:bg-contain relative flex flex-col"
+      >
         {/* small screen navpage */}
         <ul
           className={`flex gap-5 w-full h-full fixed justify-center items-center flex-col bg-[#040404] left-[-100%] sm:hidden z-[7] duration-300 ${
@@ -21,7 +24,7 @@ function Header() {
           <li>
             <a
               className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-              href=""
+              href="#home"
               onClick={() => setOpen(false)}
             >
               Home
@@ -30,7 +33,7 @@ function Header() {
           <li>
             <a
               className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-              href=""
+              href="#section1"
               onClick={() => setOpen(false)}
             >
               Marketplace
@@ -39,7 +42,7 @@ function Header() {
           <li>
             <a
               className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-              href=""
+              href="#about"
               onClick={() => setOpen(false)}
             >
               About
@@ -48,7 +51,7 @@ function Header() {
           <li>
             <a
               className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-              href=""
+              href="#next"
               onClick={() => setOpen(false)}
             >
               NexChat
@@ -57,7 +60,7 @@ function Header() {
           <li>
             <a
               className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-              href=""
+              href="#tokens"
               onClick={() => setOpen(false)}
             >
               Tokens
@@ -70,9 +73,15 @@ function Header() {
           />
         </ul>
         {/* navbar */}
-        <nav className="max-w-[1224px] w-full mx-auto px-3 h-[110px] pt-[10px] flex justify-between items-center">
+        <nav
+          className="max-w-[1224px] w-full mx-auto px-3 h-[110px] pt-[10px] flex justify-between items-center"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-delay="2000"
+          data-aos-duration="1000"
+        >
           <a
-            href=""
+            href="#home"
             className="w-[50px] sm:hidden z-10"
             onClick={() => setOpen(false)}
           >
@@ -85,7 +94,7 @@ function Header() {
                   <li>
                     <a
                       className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-                      href=""
+                      href="#home"
                     >
                       Home
                     </a>
@@ -93,7 +102,7 @@ function Header() {
                   <li>
                     <a
                       className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-                      href=""
+                      href="#section1"
                     >
                       Marketplace
                     </a>
@@ -101,7 +110,7 @@ function Header() {
                   <li>
                     <a
                       className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-                      href=""
+                      href="#about"
                     >
                       About
                     </a>
@@ -109,7 +118,7 @@ function Header() {
                   <li>
                     <a
                       className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-                      href=""
+                      href="#next"
                     >
                       NexChat
                     </a>
@@ -117,7 +126,7 @@ function Header() {
                   <li>
                     <a
                       className="font-poppins font-normal text-base text-white relative after:absolute after:h-[1px] after:w-0 hover:after:w-full after:left-[50%] hover:after:left-0 after:duration-300 after:bg-white after:bottom-0"
-                      href=""
+                      href="#tokens"
                     >
                       Tokens
                     </a>
@@ -154,7 +163,13 @@ function Header() {
         </nav>
         {/* hero section */}
         <div className="grow max-w-[1164px] w-full flex flex-col justify-center min-[1200px]:justify-start mx-auto px-3 min-[1200px]:mt-[104px]">
-          <div className="max-w-[577px] w-full">
+          <div
+            className="max-w-[577px] w-full"
+            data-aos="fade-right"
+            data-aos-once="true"
+            data-aos-delay="2000"
+            data-aos-duration="1000"
+          >
             <p className="f-recharge font-bold text-[35px] sm:text-[60px] sm:leading-[75.6px] text-white">
               <span className="text-[#02CDCF]">Nexai</span> is an advanced
               AI-powered home assistant

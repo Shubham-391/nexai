@@ -29,16 +29,22 @@ function Section2() {
   ];
   return (
     <>
-      <div className="max-w-[1364px] h-[600px] sm:h-[810px] w-full px-3 mx-auto">
+      <div id="section2" className="max-w-[1364px] h-[600px] sm:h-[810px] w-full px-3 mx-auto">
         <div className="w-full h-full border border-solid border-[#FCFCFC] rounded-[32px] bg-globebg bg-no-repeat bg-cover bg-center relative overflow-hidden flex flex-col items-center">
-          <h2 className="mt-10 sm:mt-[80px] f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-[#FCFCFC] text-center mb-4">
+          <h2 className="mt-10 sm:mt-[80px] f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-[#FCFCFC] text-center mb-4" data-aos="zoom-in"
+            data-aos-once="true"
+            data-aos-duration="1000">
             Unique features
           </h2>
-          <p className="max-w-[397px] w-full font-poppins font-normal text-base leading-[25.6px] text-center text-[rgba(255,255,255,0.7)]">
+          <p className="max-w-[397px] w-full font-poppins font-normal text-base leading-[25.6px] text-center text-[rgba(255,255,255,0.7)]" data-aos="zoom-in"
+            data-aos-once="true"
+            data-aos-duration="1000">
             ability to engage in natural, fluent conversations in over 15
             languages,
           </p>
-          <div className="w-full px-4 sm:px-6 lg:px-[100px] mt-10 sm:mt-[80px] flex flex-col gap-y-6 overflow-y-auto">
+          <div className="w-full px-4 sm:px-6 lg:px-[100px] mt-10 sm:mt-[80px] flex flex-col gap-y-6 overflow-y-auto" data-aos="zoom-in"
+            data-aos-once="true"
+            data-aos-duration="1000">
             {carddata.map((data, index) => (
               <div
                 key={index}

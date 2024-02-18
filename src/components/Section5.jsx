@@ -4,10 +4,15 @@ import aiglobe from "../assets/images/aiglobe.webp";
 function Section5() {
   return (
     <>
-      <div className="pt-12 sm:pt-[140px] px-3">
+      <div id="next" className="pt-12 sm:pt-[140px] px-3">
         <div className="max-w-[1364px] w-full mx-auto rounded-[24px] border border-solid border-[#FCFCFC] sm:min-h-[810px] bg-section5bg bg-center bg-cover bg-no-repeat flex items-center py-3 px-1 sm:px-3  flex-col-reverse lg:flex-row relative overflow-hidden">
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end xl:pr-[6px]">
-            <div className="max-w-[564px] w-full flex flex-col justify-center items-center lg:items-start lg:justify-start">
+            <div
+              className="max-w-[564px] w-full flex flex-col justify-center items-center lg:items-start lg:justify-start"
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               <h2 className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-[#02CDCF] mb-4 text-center lg:text-start">
                 What is NexAi?
               </h2>
