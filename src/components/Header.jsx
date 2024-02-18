@@ -75,10 +75,6 @@ function Header() {
         {/* navbar */}
         <nav
           className="max-w-[1224px] w-full mx-auto px-3 h-[110px] pt-[10px] flex justify-between items-center"
-          data-aos="zoom-in"
-          data-aos-once="true"
-          data-aos-delay="2000"
-          data-aos-duration="1000"
         >
           <a
             href="#home"
