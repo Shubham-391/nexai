@@ -13,7 +13,7 @@ function Header() {
     <>
       <div
         id="home"
-        className="min-h-screen min-[1200px]:h-[810px] w-full bg-headerbg bg-center bg-no-repeat bg-cover min-[1441px]:bg-contain relative flex flex-col"
+        className="min-h-screen min-[1200px]:h-[810px] min-[1200px]:min-h-0 w-full bg-headerbg bg-center bg-no-repeat bg-cover min-[1441px]:bg-contain relative flex flex-col"
       >
         {/* small screen navpage */}
         <ul
