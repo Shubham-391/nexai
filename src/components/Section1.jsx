@@ -22,7 +22,7 @@ function Section1() {
             </div>
             <div className="absolute blur-[220px] sm:blur-[180px] w-[231px] h-[231px] rounded-[50%] bg-[#02CDCF] bottom-[9%] min-[1200px]:bottom-[20%] left-[33%] min-[1200px]:left-[16%]"></div>
           </div>
-          <div className="w-full min-[1200px]:w-1/2 flex justify-center min-[1200px]:justify-start items-center relative">
+          <div className="w-full min-[1200px]:w-1/2 flex justify-center min-[1200px]:justify-end min-[1200px]:pr-[41px] items-center relative">
             <div
               className="max-w-[517px] w-full flex flex-col items-center min-[1200px]:items-start"
               data-aos="fade-left"

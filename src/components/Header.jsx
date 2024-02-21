@@ -160,17 +160,17 @@ function Header() {
         {/* hero section */}
         <div className="grow max-w-[1164px] w-full flex flex-col justify-center min-[1200px]:justify-start mx-auto px-3 min-[1200px]:mt-[104px]">
           <div
-            className="max-w-[577px] w-full"
+            className="max-w-[577px] w-full flex flex-col items-center sm:items-start"
             data-aos="fade-right"
             data-aos-once="true"
             data-aos-delay="2000"
             data-aos-duration="1000"
           >
-            <p className="f-recharge font-bold text-[35px] sm:text-[60px] sm:leading-[75.6px] text-white">
+            <p className="f-recharge font-bold text-[35px] sm:text-[60px] sm:leading-[75.6px] text-white text-center sm:text-start">
               <span className="text-[#02CDCF]">Nexai</span> is an advanced
               AI-powered home assistant
             </p>
-            <p className="mt-4 mb-[51px] font-poppins font-normal text-base leading-[25.6px] text-white">
+            <p className="mt-4 mb-6 md:mb-[51px] font-poppins font-normal text-base leading-[25.6px] text-white text-center sm:text-start">
               Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
               odio.
             </p>

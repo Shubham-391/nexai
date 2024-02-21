@@ -72,14 +72,7 @@ function Section4() {
           {boxdata.map((data, index) => (
             <div
               key={index}
-              className={`!w-[280px] sm:!w-[340px] !h-[160px] sm:!h-[220px] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29] bg-[rgba(255,255,255,0.02)] !flex justify-center ${
-                index == 1 || index == 2 || index == 3
-                  ? "items-center"
-                  : index == 6 || index == 8 || index == 12
-                  ? "pt-[34px]"
-                  : "pt-[59px]"
-              }`}
-            >
+              className="!w-[280px] sm:!w-[340px] !h-[160px] sm:!h-[220px] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29] bg-[rgba(255,255,255,0.02)] !flex justify-center items-center">
               <p
                 className={`f-recharge font-bold text-xl sm:text-[24px] sm:leading-[38.4px] text-center text-white ${
                   index == 5 ? "max-w-[278px]" : "max-w-[254px]"
@@ -94,13 +87,7 @@ function Section4() {
           {boxdata.map((data, index) => (
             <div
               key={index}
-              className={`!w-[280px] sm:!w-[340px] !h-[160px] sm:!h-[220px] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29] bg-[rgba(255,255,255,0.02)] !flex justify-center ${
-                index == 1 || index == 2 || index == 3
-                  ? "items-center"
-                  : index == 6 || index == 8 || index == 12
-                  ? "pt-[34px]"
-                  : "pt-[59px]"
-              }`}
+              className="!w-[280px] sm:!w-[340px] !h-[160px] sm:!h-[220px] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29] bg-[rgba(255,255,255,0.02)] !flex justify-center items-center"
             >
               <p
                 className={`f-recharge font-bold text-xl sm:text-[24px] sm:leading-[38.4px] text-center text-white ${
@@ -116,14 +103,7 @@ function Section4() {
           {boxdata.map((data, index) => (
             <div
               key={index}
-              className={`!w-[280px] sm:!w-[340px] !h-[160px] sm:!h-[220px] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29] bg-[rgba(255,255,255,0.02)] !flex justify-center ${
-                index == 1 || index == 2 || index == 3
-                  ? "items-center"
-                  : index == 6 || index == 8 || index == 12
-                  ? "pt-[34px]"
-                  : "pt-[59px]"
-              }`}
-            >
+              className="!w-[280px] sm:!w-[340px] !h-[160px] sm:!h-[220px] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29] bg-[rgba(255,255,255,0.02)] !flex justify-center items-center">
               <p
                 className={`f-recharge font-bold text-xl sm:text-[24px] sm:leading-[38.4px] text-center text-white ${
                   index == 5 ? "max-w-[278px]" : "max-w-[254px]"

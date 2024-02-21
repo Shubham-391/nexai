@@ -44,7 +44,7 @@ function Footer() {
             </div>
             <div className="md:min-h-[431px] flex items-end max-w-[395px] w-full">
               <div className="max-w-[395px] w-full flex justify-between md:justify-around lg:justify-between md:mb-[30px]">
-                <ul className="flex flex-col gap-y-5 relative">
+                <ul className="flex flex-col gap-y-2 sm:gap-y-5 relative">
                   <li className="f-recharge font-bold text-lg leading-[21.6px] text-white">
                     Quick links
                   </li>
@@ -97,7 +97,7 @@ function Footer() {
                     </a>
                   </li>
                 </ul>
-                <ul className="flex flex-col gap-y-5 relative">
+                <ul className="flex flex-col gap-y-2 sm:gap-y-5 relative">
                   <li className="f-recharge font-bold text-lg leading-[21.6px] text-white">
                     Information's
                   </li>
