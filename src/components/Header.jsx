@@ -170,7 +170,7 @@ function Header() {
               <span className="text-[#02CDCF]">Nexai</span> is an advanced
               AI-powered home assistant
             </p>
-            <p className="mt-4 mb-6 md:mb-[51px] font-poppins font-normal text-base leading-[25.6px] text-white text-center sm:text-start">
+            <p className="mt-4 mb-6 md:mb-[51px] font-poppins font-normal text-base leading-[25.6px] text-[rgba(255,255,255,0.7)] text-center sm:text-start">
               Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
               odio.
             </p>
