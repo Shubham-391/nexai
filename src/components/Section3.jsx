@@ -70,7 +70,7 @@ function Section3() {
     <>
       <div
         id="about"
-        className="pt-12 md:pt-24 min-[1200px]:pt-[160px] overflow-hidden px-3 sm:px-0 pb-5 md:pb-0 relative"
+        className="pt-12 md:pt-24 min-[1200px]:pt-[160px] overflow-hidden px-0 pb-5 md:pb-0 relative"
       >
         <h2
           className="f-recharge font-bold text-[25px] sm:text-[40px] sm:leading-[50.4px] text-[#02CDCF] text-center mb-4 mx-auto px-3 relative z-[1]"

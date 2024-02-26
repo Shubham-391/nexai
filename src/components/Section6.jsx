@@ -65,7 +65,7 @@ function Section6() {
               {section6data.map((data, index) => (
                 <div
                   key={index}
-                  className={`max-w-[536px] w-full relative before:absolute before:w-[8px] before:h-full before:bg-[#02CDCF] before:left-[-32px] ${
+                  className={`max-w-[536px] w-full relative before:absolute before:w-[8px] before:h-full before:bg-[#02CDCF] before:left-[-32px] md:before:left-[-75px] ${
                     index == 5 ? "pb-0" : "pb-[30px] sm:pb-[60px]"
                   } ${
                     index == 0
@@ -78,7 +78,7 @@ function Section6() {
                   <h3 className="f-recharge font-bold text-xl sm:text-[24px] sm:leading-[31.2px] text-white mb-4">
                     {data.heading}
                   </h3>
-                  <p className="font-poppins font-normal text-base leading-[25.6px] text-[rgba(255,255,255,0.7)] relative before:absolute before:w-[24px] before:h-[24px] before:bg-[#FCFCFC] before:rounded-[50%] before:top-[40px] before:left-[-40px]">
+                  <p className="font-poppins font-normal text-base leading-[25.6px] text-[rgba(255,255,255,0.7)] relative before:absolute before:w-[24px] before:h-[24px] before:bg-[#FCFCFC] before:rounded-[50%] before:top-[40px] before:left-[-40px] md:before:left-[-83px]">
                     {data.para}
                   </p>
                 </div>
